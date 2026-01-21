@@ -1,13 +1,11 @@
-src-git packages https://github.com/coolsnowwolf/packages
-#src-git luci https://github.com/coolsnowwolf/luci.git
-src-git luci https://github.com/coolsnowwolf/luci.git;openwrt-23.05
-#src-git luci https://github.com/coolsnowwolf/luci.git;openwrt-24.10
-src-git routing https://github.com/coolsnowwolf/routing
-src-git telephony https://github.com/coolsnowwolf/telephony.git
-#src-git helloworld https://github.com/fw876/helloworld.git
-#src-git qmodem https://github.com/FUjr/modem_feeds.git
-#src-git video https://github.com/openwrt/video.git
-#src-git targets https://github.com/openwrt/targets.git
-#src-git oldpackages http://git.openwrt.org/packages.git
-#src-link custom /usr/src/openwrt/custom-feed
-src-git small https://github.com/kenzok8/small
+src-git packages https://github.com/immortalwrt/packages.git;openwrt-23.05
+src-git luci https://github.com/immortalwrt/luci.git;openwrt-23.05
+src-git routing https://github.com/openwrt/routing.git;openwrt-23.05
+src-git telephony https://github.com/openwrt/telephony.git;openwrt-23.05
+# 锐捷/mentohust 插件源
+src-git mentohust https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git
+# UA伪装/防检测插件源
+src-git small https://github.com/kenzok8/small.git
+src-git small8 https://github.com/kenzok8/small-package.git
+
+# 保存退出：按 Ctrl+O → 回车 → Ctrl+X
